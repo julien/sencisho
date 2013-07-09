@@ -1,0 +1,25 @@
+{
+  "name": "sencisho",
+  "description": "sencisho is a small http server for your local development",
+  "version": "0.0.1",
+  "preferGlobal": "true",
+  "author": {
+    "name": "Julien Castelain",
+    "email": "jcastelain@gmail.com",
+    "url": "http://punkscum.org"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "repository": "git://github.com/julien/sencisho.git",
+  "keywords": [ "simple", "http", "server" ],
+  "main": "./bin/sencisho",
+  "bin": {
+    "sencisho": "./bin/sencisho"
+  },
+  "scripts": {
+    "prepublish": "npm prune"
+  },
+  "dependencies": { },
+  "engines": { "node": ">= 0.10.0" },
+  "homepage": "https://github.com/julien/sencisho"
+}
