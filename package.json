@@ -1,7 +1,7 @@
 {
   "name": "sencisho",
   "description": "sencisho is a small http server for your local development",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "preferGlobal": "true",
   "author": {
     "name": "Julien Castelain",
