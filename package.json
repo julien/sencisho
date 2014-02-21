@@ -1,14 +1,18 @@
 {
   "name": "sencisho",
   "description": "sencisho is a small http server for your local development",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "preferGlobal": "true",
   "author": {
     "name": "Julien Castelain",
     "email": "jcastelain@gmail.com",
     "url": "http://punkscum.org"
   },
-  "contributors": [],
+  "contributors": [{
+    "name": "Denis Ciccale",
+    "email": "dciccale@gmail.com",
+    "url": "http://twitter.com/tdecs"
+  }],
   "license": "MIT",
   "repository": "git://github.com/julien/sencisho.git",
   "keywords": [
