@@ -8,8 +8,14 @@ A simple http server for local development, built on top of Node.js
 
 From the directory you want to server static files:
 
-`sencisho [optional port] [optional browser]` 
+`sencisho [optional port] [optional browser]`
 
+To enable a file watcher and livereload server:
+
+`sencisho [optional port] [optional browser] --live`
+
+**Note** that you will need to manually 
+add the ["livereload snippet"](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-) to your html files.
 
 ### Misc
 + What's up with that name?
