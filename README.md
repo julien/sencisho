@@ -14,8 +14,14 @@ To enable a file watcher and livereload server:
 
 `sencisho [optional port] [optional browser] --live`
 
-**Note** that you will need to manually 
-add the ["livereload snippet"](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-) to your html files.
+**Note** that you will need to manually add the livereload snippet to your html files.
+
+
+```
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+```
+
+[More info](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-)
 
 ### Misc
 + What's up with that name?
