@@ -27,7 +27,8 @@
     "sencisho": "./bin/sencisho"
   },
   "scripts": {
-    "prepublish": "npm prune"
+    "test": "mocha",
+    "prepublish": "mocha && npm prune"
   },
   "dependencies": {
     "watchr": "^2.4.11",
