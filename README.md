@@ -8,30 +8,40 @@ A simple http server for local development, built on top of Node.js
 
 From the directory you want to server static files:
 
-`sencisho [optional port] [optional browser]`
+`sencisho [options]`
 
-To enable a file watcher and livereload server:
+#### Options
+`--port` `-p` Port number
+`--live` `-l` Enable livereload
+`--browser` `-b` Specify browser
 
-`sencisho [optional port] [optional browser] --live`
+### Examples
+Start in default port
 
-**Note** that you will need to manually add the livereload snippet to your html files.
+`sencisho`
 
+Start in specified port
 
-```
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-```
+`sencisho --port 8888` or `sencisho -p 8888`
 
-[More info](http://feedback.livereload.com/knowledgebase/articles/86180-how-do-i-add-the-script-tag-manually-)
+Enable livereload
+
+`sencisho --live` or `sencisho -l`
+
+Open in other browser than your system default
+
+`sencisho --browser opera` or `sencisho -b opera`
+
+All at once (may be passed in any order)
+
+`sencisho -p 8888 -l -b opera`
 
 ### Misc
 + What's up with that name?
-  
+
   *It's a long story*
 
 **Authors/Contributors**
 
 + *Julien Castelain*  <jcastelain@gmail.com>
 + *Denis Ciccale*     <dciccale@gmail.com>
-
-
-
