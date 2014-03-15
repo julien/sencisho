@@ -6,7 +6,7 @@ A simple http server for local development, built on top of Node.js
 ### Usage
 `npm install -g sencisho`
 
-From the directory you want to server static files:
+From the directory you want to serve static files:
 
 `sencisho [options]`
 
