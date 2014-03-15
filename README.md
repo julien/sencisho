@@ -12,7 +12,9 @@ From the directory you want to server static files:
 
 #### Options
 `--port` `-p` Port number
+
 `--live` `-l` Enable livereload
+
 `--browser` `-b` Specify browser
 
 ### Examples
