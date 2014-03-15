@@ -31,8 +31,11 @@
     "prepublish": "mocha && npm prune"
   },
   "dependencies": {
-    "watchr": "^2.4.11",
-    "tiny-lr": "0.0.5"
+    "tiny-lr": "0.0.5",
+    "gaze": "0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "1.18.0"
   },
   "engines": {
     "node": ">= 0.10.0"
