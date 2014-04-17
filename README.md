@@ -17,6 +17,8 @@ From the directory you want to serve static files:
 
 `--browser` `-b` Specify browser
 
+`--watch` `-w` Additional paths to watch
+
 ### Examples
 Start in default port
 
@@ -34,9 +36,13 @@ Open in other browser than your system default
 
 `sencisho --browser opera` or `sencisho -b opera`
 
+Add additional paths to the file watcher
+
+`sencisho --watch js/*.js` or `sencisho -w js/*.js`
+
 All at once (may be passed in any order)
 
-`sencisho -p 8888 -l -b opera`
+`sencisho -p 8888 -l -b opera -w js/*.js`
 
 ### Misc
 + What's up with that name?
