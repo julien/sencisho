@@ -72,7 +72,6 @@ Responses map typically have this format
     }
   }
 }
-
 ```
 
 The only required property is the `body` but you can specify `headers` and a `statusCode`
