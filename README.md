@@ -50,7 +50,7 @@ Don't automatically open a browser
 
 Specify a json file containing a response map
 
-`sencisho --responses` or `sencisho -r`
+`sencisho --responses api.json` or `sencisho -r api.json`
 
 All at once (may be passed in any order)
 
