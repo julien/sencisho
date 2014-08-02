@@ -1,6 +1,15 @@
 {
-  "/test": {
-    "name": "Test route",
-     "data": [1, 2, 3, 4, 5]
+  "/api": {
+
+    "headers": {
+      "Content-type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "X-Requested-With"
+    },
+
+    "body": {
+      "name": "Test route",
+      "data": [1, 2, 3, 4, 5]
+    }
   }
 }

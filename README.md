@@ -52,6 +52,32 @@ Specify a json file containing a response map
 
 `sencisho --responses api.json` or `sencisho -r api.json`
 
+Responses map typically have this format
+
+```
+{
+  "/api": {
+
+    "headers": {
+      "Content-type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "X-Requested-With"
+    },
+
+    "statusCode": 200,
+
+    "body": {
+      "name": "Something",
+      "data": [1, 2, 3, 4, 5]
+    }
+  }
+}
+
+```
+
+The only required property is the `body` but you can specify `headers` and a `statusCode`
+
+
 All at once (may be passed in any order)
 
 `sencisho -p 8888 -l -b opera -w js/*.js -s -r api.json`
