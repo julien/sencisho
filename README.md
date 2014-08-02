@@ -52,11 +52,11 @@ Specify a json file containing a response map
 
 `sencisho --responses api.json` or `sencisho -r api.json`
 
-Responses map typically have this format
+Example:
 
 ```
 {
-  "/api": {
+  "/api/test": {
 
     "headers": {
       "Content-type": "application/json",
