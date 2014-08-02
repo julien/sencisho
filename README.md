@@ -21,6 +21,8 @@ From the directory you want to serve static files:
 
 `--silent` `-s` Don't automatically open a browser
 
+`--responses` `-r` Specify a json file containing a response map
+
 ### Examples
 Start in default port
 
@@ -46,9 +48,13 @@ Don't automatically open a browser
 
 `sencisho --silent` or `sencisho -s`
 
+Specify a json file containing a response map
+
+`sencisho --responses` or `sencisho -r`
+
 All at once (may be passed in any order)
 
-`sencisho -p 8888 -l -b opera -w js/*.js -s`
+`sencisho -p 8888 -l -b opera -w js/*.js -s -r api.json`
 
 ### Misc
 + What's up with that name?

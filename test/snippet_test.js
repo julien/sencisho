@@ -3,7 +3,7 @@
 var assert = require('assert')
   , snippet = require('../lib/snippet');
 
-describe('open', function () {
+describe('snippet', function () {
 
   it('should generate a string', function () {
     var str = snippet.generate('8888');
@@ -16,4 +16,4 @@ describe('open', function () {
 
   });
 
-}); 
+});
