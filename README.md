@@ -23,6 +23,9 @@ From the directory you want to serve static files:
 
 `--responses` `-r` Specify a json file containing a response map
 
+*when using the -r/--responses option, livereload will be enabled*
+
+
 ### Examples
 Start in default port
 
