@@ -1,7 +1,7 @@
 {
   "name": "sencisho",
   "description": "sencisho is a small http server for your local development",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "preferGlobal": "true",
   "author": {
     "name": "Julien Castelain",
@@ -32,11 +32,11 @@
     "prepublish": "mocha && npm prune"
   },
   "dependencies": {
-    "tiny-lr": "0.0.5",
-    "gaze": "0.5.1"
+    "gaze": "1.1.2",
+    "tiny-lr": "1.0.3"
   },
   "devDependencies": {
-    "mocha": "1.18.0"
+    "mocha": "3.3.0"
   },
   "engines": {
     "node": ">= 0.10.0"
